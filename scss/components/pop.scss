@@ -1,0 +1,112 @@
+.pop-class{
+    padding-left:100px;
+    padding-right:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        display: flex;
+        align-items: center;
+        font-family: Nunito,sans-serif;
+        font-size: 16px;
+        color:#17A2B8;
+        div{
+            margin-right:15px;
+            margin-left:15px;
+            width:60px;
+            height:5px;
+            background-color: #17A2B8;
+        }
+        margin-bottom:20px;
+    }
+    h2{
+        font-size: 40px;
+        font-family: Handlee,cursive;
+        margin-bottom:20px;
+    }
+    .secs {
+        display: flex;
+        justify-content: space-between;
+        .single-sec {
+            margin-right:20px;
+            margin-left:20px;
+            background-color: #F8F9FA;
+            width:350px;
+            height:644px;
+                img{
+                    width:350px;
+                    height:233px;
+                }
+            .class-desc{
+                padding:20px;
+                text-align: center;
+                h4{
+                    color:#00394F;
+                    font-family: Handlee,cursive;
+                    font-size:24px;
+                    margin-bottom:12px;
+                }
+                p{
+                    font-size: 16px;
+                    font-family:Nunito,sans-serif;
+                }
+                border-bottom: 1px solid #00394F;
+            }
+            .table{
+                padding:24px 48px;
+                height:180px;
+                display: flex;
+                flex-wrap: wrap;
+                position: relative;
+                h5{
+                    height:45px;
+                    width:127px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 16px;
+                    font-family:Nunito,sans-serif;
+                }
+                span{
+                    width:254px;
+                    height:1px;
+                    background-color: #00394F;
+                    position: absolute;
+                }
+                div{
+                    width:1px;
+                    height:180px;
+                    background-color: #00394F;
+                    position: absolute;
+                    left:50%;
+                }
+                .fir{
+                    top:30%;
+                }
+                .seco{
+                    top:50%;
+                }
+                .thr{
+                    top:70%;
+                }
+
+            }
+            .butty{
+                display: flex;
+                justify-content: center;
+                span{
+                    width:115px;
+                    height:38px;
+                    border-radius: 30px;
+                    background-color: #17A2B8;
+                    color:#fff;
+                    font-family: Nunito,sans-serif;
+                    font-size:16px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}

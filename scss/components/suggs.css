@@ -1,0 +1,39 @@
+.suggs {
+  margin-top: 96px;
+  padding-left: 200px;
+}
+.suggs .row {
+  margin-bottom: 24px;
+  width: 1140px;
+  height: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+.suggs .row .row-element {
+  border-radius: 5px;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.08);
+  background-color: #F8F9FA;
+  display: flex;
+  width: 275px;
+  padding: 30px;
+}
+.suggs .row .row-element img {
+  height: 40px;
+  width: 40px;
+}
+.suggs .row .row-element div {
+  padding-left: 24px;
+}
+.suggs .row .row-element div h4 {
+  font-family: Handlee, cursive;
+  margin-bottom: 20px;
+  color: #00394F;
+  font-size: 24px;
+}
+.suggs .row .row-element div p {
+  font-family: Nunito, sans-serif;
+  margin-bottom: 8px;
+  color: #666666;
+  font-size: 16px;
+  line-height: 1.5;
+}/*# sourceMappingURL=suggs.css.map */

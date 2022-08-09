@@ -1,0 +1,72 @@
+header{
+    padding-left:63px;
+    padding-right:63px;
+    height:87.4px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    .header-block{
+        height:100%;
+        width:1363px;
+        display: flex;
+        .logo{
+            display: flex;
+            height:100%;
+            width:281px;
+            align-items: center;
+            img {
+                height:50.4px;
+                width:50px;
+                margin-right:20px;
+            }
+            h1{
+                color: #17a2b8;
+                font-size: 50px;
+                font-weight: 700;
+                font-family: "Nunito", sans-serif;
+            }
+        }
+        .menu{
+            margin-left:260px;
+            display: flex;
+            div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width:74px;
+                font-size: 16px;
+                font-weight: 700;
+                font-family: "Nunito", sans-serif;
+            }
+            .selected{
+                color: #17a2b8;
+            }
+            div:hover{
+                color: #17a2b8;
+            }
+        }
+        .header-button{
+            margin-left:150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:120px;
+            font-size: 16px;
+            font-weight: 500;
+            font-family: "Nunito", sans-serif;
+            span{
+                height:38px;
+                color: #fff;
+                background-color: #17a2b8;
+                border-radius: 30px;
+                width:100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            span:hover{
+                background-color: #138496;
+            }
+        }
+    }
+}
